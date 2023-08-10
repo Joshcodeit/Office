@@ -1,0 +1,28 @@
+/* desktop resolution 1920*1080 */
+@media only screen and (min-width: 1536px) {
+    /*Get started page*/
+    .get-started-page div.H {
+        margin-top: 3rem;   
+    }
+    .get-started-page form {
+        margin-top: 5rem;   
+    }
+
+  /* Device page*/
+    .device-content div#device-content-h {        
+        margin-top: 0px;
+    }
+    #device-content-form .other {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Issues page*/
+    .issues .h {
+        margin-top: 0px;
+    }
+    .issues form {
+        max-height: 25rem;
+    }
+  }
